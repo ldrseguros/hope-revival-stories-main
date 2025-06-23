@@ -172,7 +172,7 @@ const TestimonyForm = () => {
       {/* Hidden div for PDF generation */}
       <div className="absolute -z-10 -left-[9999px]">
         <div ref={termsRef}>
-          <TermsPDFContent t={(key: string) => t(key) as string} formData={formData} />
+          <TermsPDFContent t={t as any} formData={formData} />
         </div>
       </div>
 
