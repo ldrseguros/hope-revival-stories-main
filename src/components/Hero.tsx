@@ -10,9 +10,6 @@ const Hero = () => {
       {/* Background with helicopter crash image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('/lovable-uploads/f0f60d85-2857-4e04-9918-90a7ff4ab962.png')`,
-        }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-green-900/90 via-blue-900/85 to-green-800/90"></div>
       </div>

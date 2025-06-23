@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Projeto Jardel Borges
 
 ## Project info
 
