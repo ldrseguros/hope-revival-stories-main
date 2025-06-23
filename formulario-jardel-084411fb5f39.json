@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "formulario-jardel",
+  "private_key_id": "084411fb5f39112bd7b34742b5532908b3f1703c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZWzjHgtzj+UG5\n2i+1Cn4cCrj6Y5SVQ5PuGw+u7YcQjbGorb3jm2urWm8D3c1sL8d/BBXrkZghnrEU\nSr4kxg+8ZT2JCIJeybotj4D/i9QTONILfxdAEJWB9X1gqb6nUYHMzjLqngKk+gmy\nC3usPAiM+fT/7eXZgdJDoAp0cwPLYNzfm/YRk6R9Srqby+uPczWugB7+VOky9ZhD\np3PBIwJmsxRlPKz+eHXrKLsT/Tb8YhyoS1KhXIsEo2/fwxokrgXWnzPvBAl/GKZi\nV25MdAQjBgOR019Q/3FwF/yDu/hvyXfXbaKddrEKfFu1hQEnvbO2fwoQUDCW3gr1\nohTH3AcHAgMBAAECggEAAnOxbYsw7Joxy/6/kDBJ7OPaVPKI+naj+QTIvujAUJTw\nuBGIaDO2HdK/1KV+tnybFB5PcBPvWpZBdDbFDIHNgvBxcpfxZwI9rk3Nkl28zHk2\nQ9sf1t/iVrtt6kDnMfX9J8uiMnBypWBJYxCI79Yz4svPotSTE2Oz0MNQd3qBSdv3\nxf/1VEqhFVFk1b44sMAP3pxC4+Hs5gpGIYZwMfrDVyU997bBnDmUjvYMhc0vYNJn\nD+4/Y9W1Ze87+4GuCL1J4UYRijiyvIexwIx/Y1/qSAv0j0dlN+2f3Sjj2t1KeT1N\n0HZ1QmEFbZLjy3ck8Ih6GLOitMYaliz+U811aq/PBQKBgQDIIPUZhvotqL/Wfyqo\nyQ55+kqLNxJKD3R1KDku7kgvisUq3dUwkYiq2O0640tpX4d3iMlxjw9hhsgaQBMn\nfqMrNpwODnjvhoihGysEw0XsArVYJi6+HABBQvfi7oCOK+6TOuKQCabcwYPjzt2Z\n+V5FWkVieNK/Dw/637z9vPb9mwKBgQDEK3pGeMZTijIBRhvXUxjioT41pEl5pRyF\nAPy7NrUz37ydWsMliTCW3AJgQyvA00R2DU/MSOGl2mDps1CdZyJcQko1E2yx1mqS\nWbiVDg2k0cq4EUx5TglgxBcEGkQWS5CG7vkpvt1atz3DbeV7YAeRlEd7G6teKVFC\nLc73fZXpBQKBgDX+vmJeyo0bJHco5EeZx3AdmZMqDqMwvEkHyzXgUFWTaVMBew2Z\nlngSAx+KR8RsY85ad49N++ZiSQbcFs7nGfsExuH8AaEOeTqOa/LjBLCCoo7f7miY\ngXEaMmtl0gWJ0NqkXpBiKkURaRZDsAJlB4xKqMHCu4mU9MjJKOKE41bVAoGBAKHh\nAvEefwK3GpakhRsGDpYN2ykm3h8M2mEDNItFFPium5X6LOlPsZH8EdXf+D4R2P/V\n8lCwn8xeTfTsLQ0G63rYlSYBVoPWXXFRqpkN1MJ7AN8uHz5G4ERC7H9NMXx4dNZ0\nY5ZIU5+lcMlRabqKvxQqGWaEqcB1NgH3jT/8GXYFAoGATAzDNWiwuSqr3m/3Lyjo\nOuFG5dKp5pOzx0zF+HgNFcSLU2YnKUzAyHOr+IY5tBA5esd4+ZX2TytEAi9HsyZP\niUjQLXfYc+us2SousXayflwYZmYKgWgtCaRArKmiweURNzVG1A5xUldqL3BNL0CP\nIQAbh6U4BN8joatVuBbQjno=\n-----END PRIVATE KEY-----\n",
+  "client_email": "formul-rio-jardel@formulario-jardel.iam.gserviceaccount.com",
+  "client_id": "102773119746048793153",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/formul-rio-jardel%40formulario-jardel.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
