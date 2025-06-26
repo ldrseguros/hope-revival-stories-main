@@ -11,9 +11,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "npm run build && node server.js",
-    "postinstall": "prisma generate",
     "db:migrate": "prisma migrate deploy",
-    "db:push": "prisma db push"
+    "db:push": "prisma db push",
+    "prisma:generate": "prisma generate"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
