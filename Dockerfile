@@ -20,8 +20,8 @@ COPY . .
 # Build the application
 RUN npm run build
 
-# Expose port
-EXPOSE 3001
+# Expose port (Railway will set PORT environment variable)
+EXPOSE $PORT
 
 # Start the application
 CMD ["npm", "start"] 

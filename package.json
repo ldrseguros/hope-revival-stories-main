@@ -10,7 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "npm run build && node server.js",
+    "start": "node server.js",
     "db:migrate": "prisma migrate deploy",
     "db:push": "prisma db push",
     "prisma:generate": "prisma generate"
