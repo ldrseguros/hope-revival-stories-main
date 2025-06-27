@@ -10,8 +10,9 @@ const prisma = new PrismaClient();
 const KEYFILEPATH = process.env.GOOGLE_SERVICE_ACCOUNT;
 const FOLDER_ID = process.env.GOOGLE_DRIVE_FOLDER_ID;
 
+const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
 const auth = new google.auth.GoogleAuth({
-  keyFile: KEYFILEPATH,
+  credentials,
   scopes: ['https://www.googleapis.com/auth/drive.file'],
 });
 
