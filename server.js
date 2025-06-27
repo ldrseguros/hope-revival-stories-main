@@ -20,7 +20,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // API Routes
-app.post('/upload', uploadHandler);
+app.post('/api/upload', uploadHandler);
 
 // Serve React app for all other routes
 app.get('*', (req, res) => {
