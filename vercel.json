@@ -1,8 +1,15 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x",
-      "includeFiles": "service-account.json"
-    }
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
   }
-} 
