@@ -1,9 +1,9 @@
-import { google } from 'googleapis';
-import { PrismaClient } from '@prisma/client';
-import Busboy from 'busboy';
-import fs from 'fs';
-import os from 'os';
-import path from 'path';
+const { google } = require('googleapis');
+const { PrismaClient } = require('@prisma/client');
+const Busboy = require('busboy');
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
 
 const prisma = new PrismaClient();
 
@@ -38,7 +38,7 @@ async function uploadFileToDrive(drive, filePath, originalname, mimetype) {
   }
 }
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   try {
     console.log('Método:', req.method);
     console.log('Variáveis de ambiente:', {
