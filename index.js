@@ -28,7 +28,7 @@ app.get('/api/health', (req, res) => {
 
 // Servir frontend (se necessário)
 app.use(express.static(path.join(__dirname, 'dist')));
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
   console.log('Rota catch-all chamada');
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
