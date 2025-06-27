@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-// Rota de upload com log
+// Rota de upload
 app.post('/api/upload', (req, res, next) => {
   console.log('Rota /api/upload chamada');
   uploadHandler(req, res, next);
