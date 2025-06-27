@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "start": "node index.js",
     "dev": "vite",
     "start:server": "node server.js",
     "build": "vite build",
-    "postbuild": "prisma generate",
+    "vercel-build": "npm run build && npx prisma generate",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -96,5 +97,8 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
